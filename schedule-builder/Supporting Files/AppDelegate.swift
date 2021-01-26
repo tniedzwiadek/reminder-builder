@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  reminder-builder
+//  schedule-builder
 //
 //  Created by Thomas Niedzwiadek on 9/16/20.
 //

@@ -1,6 +1,6 @@
 //
 //  OnboardPage.swift
-//  reminder-builder
+//  schedule-builder
 //
 //  Created by Thomas Niedzwiadek on 1/8/21.
 //

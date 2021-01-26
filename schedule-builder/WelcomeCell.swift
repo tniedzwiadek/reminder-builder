@@ -1,6 +1,6 @@
 //
 //  WelcomeCell.swift
-//  reminder-builder
+//  schedule-builder
 //
 //  Created by Thomas Niedzwiadek on 9/19/20.
 //

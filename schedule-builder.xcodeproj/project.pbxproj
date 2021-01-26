@@ -21,7 +21,7 @@
 		22067E182516C0DC008E36C0 /* SwipeNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeNavigator.swift; sourceTree = "<group>"; };
 		22067E202516D03C008E36C0 /* WelcomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCell.swift; sourceTree = "<group>"; };
 		2253A94525A96F01006C7C23 /* OnboardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardPage.swift; sourceTree = "<group>"; };
-		229EBA232512F7A10058B90F /* reminder-builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reminder-builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229EBA232512F7A10058B90F /* schedule-builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "schedule-builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		229EBA262512F7A10058B90F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		229EBA282512F7A10058B90F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		229EBA2A2512F7A10058B90F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		229EBA1A2512F7A10058B90F = {
 			isa = PBXGroup;
 			children = (
-				229EBA252512F7A10058B90F /* reminder-builder */,
+				229EBA252512F7A10058B90F /* schedule-builder */,
 				229EBA242512F7A10058B90F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		229EBA242512F7A10058B90F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				229EBA232512F7A10058B90F /* reminder-builder.app */,
+				229EBA232512F7A10058B90F /* schedule-builder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		229EBA252512F7A10058B90F /* reminder-builder */ = {
+		229EBA252512F7A10058B90F /* schedule-builder */ = {
 			isa = PBXGroup;
 			children = (
 				229EBA3C25142A200058B90F /* Supporting Files */,
@@ -68,7 +68,7 @@
 				229EBA342512F7A30058B90F /* Info.plist */,
 				2253A94525A96F01006C7C23 /* OnboardPage.swift */,
 			);
-			path = "reminder-builder";
+			path = "schedule-builder";
 			sourceTree = "<group>";
 		};
 		229EBA3C25142A200058B90F /* Supporting Files */ = {
@@ -84,9 +84,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		229EBA222512F7A10058B90F /* reminder-builder */ = {
+		229EBA222512F7A10058B90F /* schedule-builder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 229EBA372512F7A30058B90F /* Build configuration list for PBXNativeTarget "reminder-builder" */;
+			buildConfigurationList = 229EBA372512F7A30058B90F /* Build configuration list for PBXNativeTarget "schedule-builder" */;
 			buildPhases = (
 				229EBA1F2512F7A10058B90F /* Sources */,
 				229EBA202512F7A10058B90F /* Frameworks */,
@@ -96,9 +96,9 @@
 			);
 			dependencies = (
 			);
-			name = "reminder-builder";
-			productName = "reminder-builder";
-			productReference = 229EBA232512F7A10058B90F /* reminder-builder.app */;
+			name = "schedule-builder";
+			productName = "schedule-builder";
+			productReference = 229EBA232512F7A10058B90F /* schedule-builder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 229EBA1E2512F7A10058B90F /* Build configuration list for PBXProject "reminder-builder" */;
+			buildConfigurationList = 229EBA1E2512F7A10058B90F /* Build configuration list for PBXProject "schedule-builder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				229EBA222512F7A10058B90F /* reminder-builder */,
+				229EBA222512F7A10058B90F /* schedule-builder */,
 			);
 		};
 /* End PBXProject section */
@@ -224,10 +224,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "schedule-builder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tniedzwiadek.schedule-builder";
+				PRODUCT_NAME = "schedule-builder";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -279,9 +282,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "schedule-builder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tniedzwiadek.schedule-builder";
+				PRODUCT_NAME = "schedule-builder";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -296,13 +302,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SC5CGKUGUK;
-				INFOPLIST_FILE = "reminder-builder/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/schedule-builder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tniedzwiadek.reminder-builder";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tniedzwiadek.schedule-builder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,13 +322,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SC5CGKUGUK;
-				INFOPLIST_FILE = "reminder-builder/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/schedule-builder/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tniedzwiadek.reminder-builder";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tniedzwiadek.schedule-builder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		229EBA1E2512F7A10058B90F /* Build configuration list for PBXProject "reminder-builder" */ = {
+		229EBA1E2512F7A10058B90F /* Build configuration list for PBXProject "schedule-builder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				229EBA352512F7A30058B90F /* Debug */,
@@ -341,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		229EBA372512F7A30058B90F /* Build configuration list for PBXNativeTarget "reminder-builder" */ = {
+		229EBA372512F7A30058B90F /* Build configuration list for PBXNativeTarget "schedule-builder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				229EBA382512F7A30058B90F /* Debug */,
